@@ -5,7 +5,7 @@
 
 -include device/Unihertz/Jelly2/BoardConfigCommon.mk
 
-DEVICE_REGION_PATH := device/Unihertz/Jelly2
+DEVICE_REGION_PATH := device/Unihertz/Jelly2_JP
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := g55v71c2k_dfl_jp_felica
