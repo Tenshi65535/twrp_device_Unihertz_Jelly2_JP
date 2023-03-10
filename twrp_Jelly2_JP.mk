@@ -1,8 +1,8 @@
 # Inherit from common device
-$(call inherit-product, device/Unihertz/Atom_LXL/deviceCommon.mk)
+$(call inherit-product, device/Unihertz/Jelly2/deviceCommon.mk)
 
 # Inherit from vendor
-$(call inherit-product-if-exists, vendor/Unihertz/Atom_L_TEE/Atom_L_TEE-vendor.mk)
+$(call inherit-product-if-exists, vendor/Unihertz/Jelly2_JP/Jelly2_JP-vendor.mk)
 
 PRODUCT_NAME := twrp_Jelly2_JP
 PRODUCT_DEVICE := Jelly2_JP
