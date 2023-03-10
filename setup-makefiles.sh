@@ -19,7 +19,7 @@ set -e
 
 export DEVICE=Jelly2_JP
 export VENDOR=Unihertz
-export INITIAL_COPYRIGHT_YEAR=2023
+export INITIAL_COPYRIGHT_YEAR=2020
 
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
